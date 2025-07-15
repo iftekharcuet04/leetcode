@@ -17,12 +17,11 @@ const  trackResult = function (s){
     for (let i =0; i<s.length; i++){
         const char = s[i];
         if(!result.has(char)){
-            result.set(char, {count: 1, index: [i]})
+            result.set(char, {count: 1})
         }
         else{
             const entry = result.get(char);
             entry.count++;
-            entry.index.push(i)
         }
     }
 
