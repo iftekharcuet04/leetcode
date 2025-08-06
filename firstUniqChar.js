@@ -48,9 +48,6 @@ var firstUniqChar = function(s) {
     return -1;
 };
 
-console.log(
-  firstUniqChar("itwqbtcdprfsuprkrjkausiterybzncbmdvkgljxuekizvaivszowqtmrttiihervpncztuoljftlxybpgwnjb")
-);
 
 
 
